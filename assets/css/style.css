@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: aqua;
+}
+.boton{
+    background-color: aqua;
+}
+
+.padding{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.alturaMax{
+    height: 800px;
+    background-position: center center;
+    background-size: contain;
+}
+@media screen and (max-width: 1200px){
+    .alturaMax{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 800px){
+    .alturaMax{
+        height: 400px;
+    }
+}
+.alto{
+    height: 150px;
+}
+
